@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>New Branch Page</title>
+</head>
+
+<body>
+
+<style>
+
+
+</style>
+
+
+<h1>Welcome!</h1>
+<button class="my_popup_open">Click Here</button>
+<div id="my_popup">
+
+	<div>
+		<h3>Box</h3>
+		<p>Hello World!</p>
+	</div>
+
+	<button class="my_popup_close">Close></button>
+
+</div>
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://vast-engineering.github.io/jquery-popup-overlay/jquery-popupoverlay.js"></script>
+<script>
+
+	$(document).ready(function() {
+		$('#my_popup').popup();
+	});
+</script>
+</body>
+</html>
